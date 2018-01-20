@@ -1,0 +1,87 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #592741;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #CE2845;
+}
+
+.active {
+    background-color: #FD9F3F;
+}
+
+body {
+    /*background: linear-gradient(to right, rgb(232, 203, 192), rgb(99, 111, 164));*/
+    font-family: 'Supermercado One', cursive;
+    background-color: #F34443;
+    color: #FD9F3F;
+}
+
+a {
+    text text-decoration: none; 
+}
+
+.important {
+    font-size: 42px;
+    /*text-align: center;*/
+
+}
+
+.name {
+    font-size: 65px;
+    color: #592741;
+    /*text-align: center;*/
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1;
+ margin-right: 30px;
+
+}
+
+article {
+ flex: 4;
+}
+
+.attention {
+    font-size: 30px;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+.seven5 {
+    width: 75%;
+}
+
+.bio {
+    width: 25%;
+}
+.list {
+    font-size: 20px;
+}
+
+
